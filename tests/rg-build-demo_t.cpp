@@ -1,4 +1,4 @@
-#include "catch2/catch.hpp"
+#include "catch2/catch_all.hpp"
 #include "rg-build-demo/rg-build-demo.hpp"
 
 using namespace rgbuilddemo;

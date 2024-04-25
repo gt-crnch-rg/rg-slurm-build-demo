@@ -12,7 +12,7 @@ on:
   # as well as upon manual triggers through the 'Actions' tab of the Github UI
   workflow_dispatch:
 env:
-  CATCH2_VERSION: 2.13.10
+  CATCH2_VERSION: 3.5.2
 
 jobs:
   build-and-test:
