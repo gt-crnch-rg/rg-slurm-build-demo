@@ -1,23 +1,23 @@
-# Welcome to Rogues Gallery C++ Software Project
+# Welcome to the Rogues Gallery C++ Software Build Demo Project
 
 [![License](https://img.shields.io/badge/License-BSD%202--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)
-[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/SterlingPeet/rg-build-demo/ci.yml?branch=main)](https://github.com/SterlingPeet/rg-build-demo/actions/workflows/ci.yml)
-[![Documentation Status](https://readthedocs.org/projects/rg-build-demo/badge/)](https://rg-build-demo.readthedocs.io/)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/gt-crnch-rg/rg-slurm-build-demo/ci.yml?branch=main)](https://github.com/gt-crnch-rg/rg-slurm-build-demo/actions/workflows/ci.yml)
+[![Documentation Status](https://readthedocs.org/projects/rg-slurm-build-demo/badge/)](https://rg-slurm-build-demo.readthedocs.io/)
 
 
 
 # Prerequisites
 
-Building Rogues Gallery C++ Software Project requires the following software installed:
+Building the Rogues Gallery C++ Software Build Demo Project requires the following software installed:
 
 * A C++11-compliant compiler
 * CMake `>= 3.9`
 * Doxygen (optional, documentation building is skipped if missing)
 * The testing framework [Catch2](https://github.com/catchorg/Catch2) for building the test suite
 
-# Building Rogues Gallery C++ Software Project
+# Building the Rogues Gallery C++ Software Build Demo Project
 
-The following sequence of commands builds Rogues Gallery C++ Software Project.
+The following sequence of commands builds the Rogues Gallery C++ Software Build Demo Project.
 It assumes that your current working directory is the top-level directory
 of the freshly cloned repository:
 
@@ -36,10 +36,10 @@ which can be set by adding `-D<var>={ON, OFF}` to the `cmake` call:
 
 
 
-# Testing Rogues Gallery C++ Software Project
+# Testing the Rogues Gallery C++ Software Build Demo Project
 
 When built according to the above explanation (with `-DBUILD_TESTING=ON`),
-the C++ test suite of `Rogues Gallery C++ Software Project` can be run using
+the C++ test suite of the `Rogues Gallery C++ Software Build Demo Project` can be run using
 `ctest` from the build directory:
 
 ```
@@ -50,8 +50,8 @@ ctest
 
 # Documentation
 
-Rogues Gallery C++ Software Project provides a Sphinx-based documentation, that can
-be browsed [online at readthedocs.org](https://rg-build-demo.readthedocs.io).
+The Rogues Gallery C++ Software Build Demo Project provides a Sphinx-based documentation, that can
+be browsed [online at readthedocs.org](https://rg-slurm-build-demo.readthedocs.io).
 To build it locally, first ensure the requirements are installed by running this command from the top-level source directory:
 
 ```

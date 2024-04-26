@@ -1,5 +1,5 @@
-Rogues Gallery C++ Software Project
-===================================
+Rogues Gallery C++ Software Build Demo Project
+==============================================
 
 .. toctree::
    :maxdepth: 2

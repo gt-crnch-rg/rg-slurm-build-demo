@@ -1,3 +1,11 @@
+# To install the git pre-commit hook run:
+#   pre-commit install
+# To update the pre-commit hooks run:
+#   pre-commit install-hooks
+
+default_install_hook_types: [pre-commit, pre-merge-commit, pre-push]
+default_stages: [pre-commit, pre-merge-commit, pre-push]
+
 repos:
   # Run Black - the uncompromising Python code formatter
   - repo: https://github.com/psf/black
