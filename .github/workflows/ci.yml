@@ -26,7 +26,7 @@ jobs:
         os: [ubuntu-latest]
 
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v5
 
     - name: Install Catch2 (Linux + MacOS)
       if: runner.os != 'Windows'
@@ -68,7 +68,7 @@ jobs:
         os: [slurm-arm, slurm-riscv]
 
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v5
     - name: Run slurm batch file
       working-directory: ${{ github.workspace }}/slurm
       shell: bash
